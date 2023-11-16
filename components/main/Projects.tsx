@@ -14,12 +14,14 @@ const Projects = () => {
                 title='My Portfolio'
                 description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
                 technology='Next js'
+                githublink='https://github.com/Akramzayan/'
             />
 
              <ProjectCard src='/Nike.png'
                 title='Nike Landing Page'
                 description='Crafted a dynamic, fully responsive Nike clone using React and Tailwind CSS. Seamlessly blending form and function, this project showcases my expertise in front-end development, responsive design, and the effective use of modern web technologies.'
                 technology='React js Tailwind-Css'
+                githublink='https://github.com/Akramzayan/'
             />
              <ProjectCard src='/Smartex.png'
                 title='Smartex'
@@ -27,27 +29,31 @@ const Projects = () => {
 
                 '
                 technology='React.js Scss'
+                githublink='https://github.com/Akramzayan/'
             />
             
          
 
         </div>
         <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
-            <ProjectCard src='/Portfolio.png'
-                title='My Project'
+            <ProjectCard src='/gatecars.png'
+                title='GateCars'
                 description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
                 technology='next.js'
+                githublink='https://github.com/Akramzayan/'
                 
             />
              <ProjectCard src='/Nike.png'
                 title='My Project'
                 description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
                 technology='Next.js'
+                githublink='https://github.com/Akramzayan/'
             />
              <ProjectCard src='/CardImage.png'
                 title='My Project'
                 description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
                 technology='Next.js'
+                githublink='https://github.com/Akramzayan/'
             />
             
          
@@ -58,16 +64,19 @@ const Projects = () => {
                 title='My Project'
                 description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
                 technology='Next.js'
+                githublink='https://github.com/Akramzayan/'
             />
              <ProjectCard src='/Nike.png'
                 title='My Project'
                 description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
-                technology='Next.js'
+                technology='Next.js' 
+                 githublink='https://github.com/Akramzayan/'
             />
              <ProjectCard src='/CardImage.png'
                 title='My Project'
                 description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
                 technology='Next.js'
+                githublink='https://github.com/Akramzayan/'
             />
             
          
