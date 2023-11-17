@@ -3,6 +3,7 @@ import React from 'react'
 import {RxGithubLogo,RxLinkedinLogo} from "react-icons/rx"
 import { SiGmail } from "react-icons/si"
 import HireMe from '../sub/HireMe'
+import {LinkedInIcon } from '@/constants'
 
 const Footer = () => {
   return (
@@ -16,10 +17,7 @@ const Footer = () => {
                     <Link href={"https://github.com/Akramzayan/"} target='_blank'>  <RxGithubLogo/></Link>
                         <span>Github</span>
                     </div>
-                    <p className='flex flex-row items-center my-[15px] cursor-pointer'>
-                       <Link href="https://www.linkedin.com/in/akram-zayane-702005207/" target='_blank'><RxLinkedinLogo/></Link> 
-                        <span className='hover: text-dark'>www.linkedin.com/in/akram-zayane-702005207/</span>
-                    </p>
+                    <Link href="https://www.linkedin.com/in/akram-zayane-702005207/" target='_blank' className='w-[24px] h-[24px] cursor-pointer'><LinkedInIcon/></Link>
                     <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                         <SiGmail/>
                         <span>Akremzayane@gmail.com</span>

@@ -47,10 +47,7 @@ const Education = () => {
         style={{scaleY:scrollYProgress}}
        className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/>
         <ul className='w-full flex flex-col items-start justify-between ml-4'>
-          <Details  type="Tunisian Baccalaureate "
-                    time="July-August 2022" place="Sousse |Tunisia"
-           
-          />
+         
             <Details
             type="Integrated Preparatory "
             time="2019-2021"

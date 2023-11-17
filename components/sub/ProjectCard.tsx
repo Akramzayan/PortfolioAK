@@ -6,10 +6,11 @@ interface Props{
     title:string,
     description:string,
     technology:string,
+    githublink:string,
    
 }
 
-const ProjectCard = ({src,title,description,technology}:Props) => {
+const ProjectCard = ({src,title,description,technology,githublink}:Props) => {
   return (
     <div className='relative overflow-hidden rounded-lg shadow-lg border border-[#2a0e61]'>
         <Image
@@ -24,8 +25,8 @@ const ProjectCard = ({src,title,description,technology}:Props) => {
             <p className='mt-2 text-gray-300'>{description}</p>
             <h1 className='text-xl font-semibold text-[#ac9dc9]'>{technology}</h1>
             <div className='flex flex-row items-end justify-center sm:flex-col'>
-            <Link href={"www.google.com"}> <Image  src={'/gitwhite.png'} alt='there' width={80} height={80} className='cursor-pointer' ></Image></Link>
-
+            <a href={githublink}> <Image src={'/gitwhite.png'} alt='there' width={80} height={80} className='cursor-pointer'/></a>
+            
             </div>
 
         </div>
