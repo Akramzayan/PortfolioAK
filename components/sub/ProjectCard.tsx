@@ -25,7 +25,7 @@ const ProjectCard = ({src,title,description,technology,githublink}:Props) => {
             <p className='mt-2 text-gray-300'>{description}</p>
             <h1 className='text-xl font-semibold text-[#ac9dc9]'>{technology}</h1>
             <div className='flex flex-row items-end justify-center sm:flex-col'>
-            <a href={githublink}> <Image src={'/gitwhite.png'} alt='there' width={80} height={80} className='cursor-pointer'/></a>
+            <Link href="https://google.com"><Image src={'/gitwhite.png'} alt='there' width={80} height={80} className='cursor-pointer'/></Link>
             
             </div>
 

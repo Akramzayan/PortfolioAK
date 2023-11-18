@@ -30,7 +30,6 @@ const Navbar = () => {
             <div className='flex flex-row gap-10 '>
              <Link href='https://github.com/Akramzayan/' target='_blank' className='w-[24px] h-[24px]'><Image src={github} alt='git-Hub' height={24} width={24}/></Link>
              <Link href="https://www.linkedin.com/in/akram-zayane-702005207/" target='_blank' className='w-[24px] h-[24px]'><LinkedInIcon/></Link>
-
             </div>
 
         </div>
