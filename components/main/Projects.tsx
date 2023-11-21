@@ -43,7 +43,7 @@ const Projects = () => {
                 githublink='https://github.com/Akramzayan/GateCars'
                 
             />
-             <ProjectCard src='/Crypto app.png'
+             <ProjectCard src='/crypto.png'
                 title='Crypto app'
                 description=' web application that seamlessly integrates with the Coin Gecko API through Axios. Providing a comprehensive overview of the cryptocurrency market, CryptoVue delivers real-time data and analysis, making it the ideal choice for informed investors. Elevate your crypto experience with CryptoVue in your portfoli .'
                 technology='Reactjs css '
