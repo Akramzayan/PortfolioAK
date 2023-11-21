@@ -13,7 +13,7 @@ const Projects = () => {
             <ProjectCard src='/Portfolio.png'
                 title='My Portfolio'
                 description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
-                technology='Next js'
+                technology='Next js TypeScript Tailwind-Css Three Js Framer-Motion'
                 githublink='https://github.com/Akramzayan/PortfolioAK'
             />
 
@@ -43,45 +43,23 @@ const Projects = () => {
                 githublink='https://github.com/Akramzayan/GateCars'
                 
             />
-             <ProjectCard src='/Nike.png'
-                title='Nike'
-                description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
-                technology='Reactjs Tailwind-Css'
+             <ProjectCard src='/Crypto app.png'
+                title='Crypto app'
+                description=' web application that seamlessly integrates with the Coin Gecko API through Axios. Providing a comprehensive overview of the cryptocurrency market, CryptoVue delivers real-time data and analysis, making it the ideal choice for informed investors. Elevate your crypto experience with CryptoVue in your portfoli .'
+                technology='Reactjs css '
                 githublink='https://github.com/Akramzayan/Nike'
             />
-             <ProjectCard src='/Portfolio.png'
-                title='GateCars'
-                description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
-                technology='React js  MangoDb express Node js'
-                githublink='https://github.com/Akramzayan/GateCars'
-            />
-            
-         
-
-        </div>
-        <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
             <ProjectCard src='/Portfolio.png'
-                title='My Project'
+                title='My Portfolio'
                 description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
-                technology='Next.js'
-                githublink='https://github.com/Akramzayan/'
-            />
-             <ProjectCard src='/Nike.png'
-                title='My Project'
-                description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
-                technology='Next.js' 
-                 githublink='https://github.com/Akramzayan/'
-            />
-             <ProjectCard src='/Portfolio.png'
-                title='My Project'
-                description='Explore my portfolio sample—crafted with Next.js and polished with Tailwind CSS. Framer Motion adds seamless animations, while Three.js introduces captivating 3D elements. Its a fusion of technology and design, redefining digital presentation standards.'
-                technology='Next.js'
+                technology='Next js TypeScript Tailwind-Css Three Js Framer-Motion'
                 githublink='https://github.com/Akramzayan/PortfolioAK'
             />
             
          
 
         </div>
+       
   
     </div>
   )
